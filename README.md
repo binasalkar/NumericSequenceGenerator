@@ -30,7 +30,8 @@ The unit tests are written using Jasmine
 # End to End Tests
 End to end tests are written using the Protractor framework which in turn uses the Jasmine test framework for its testing interface
 #
-Prerequisites for running protractor - installation of Node.JS
+Protractor needs the installation of Node.JS
+#
 If you have not installed node.js, follow the below steps
 #
 1. In the command prompt , run the below command
@@ -40,6 +41,7 @@ If you have not installed node.js, follow the below steps
 3. Start the server with the below command
     webdriver-manager start
 This will start the Selenium server. The status can be seen at http://localhost:4444/wd/hub
+#
 
 Running the tests:
 #
