@@ -41,7 +41,7 @@ If you have not installed node.js, follow the below steps
 3. Start the server with the below command
     webdriver-manager start
 This will start the Selenium server. The status can be seen at http://localhost:4444/wd/hub
-#
+
 
 Running the tests:
 #
