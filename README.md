@@ -1,0 +1,2 @@
+# NumericSequenceGenerator
+Numeric Sequence Generator
