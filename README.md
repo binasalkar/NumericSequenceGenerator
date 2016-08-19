@@ -36,7 +36,7 @@ If you have not installed node.js, follow the below steps
 #
 1. In the command prompt , run the below command
     npm install -g protractor
-2. Webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. To download the binaries, run the below command
+2. Webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. To download the binaries, run the  command
     webdriver-manager update
 3. Start the server with the below command
     webdriver-manager start
