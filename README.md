@@ -29,6 +29,7 @@ The unit tests are written using Jasmine
 
 # End to End Tests
 End to end tests are written using the Protractor framework which in turn uses the Jasmine test framework for its testing interface
+#
 Prerequisites for running protractor - installation of Node.JS
 If you have not installed node.js, follow the below steps
 #
