@@ -34,12 +34,12 @@ Protractor needs the installation of Node.JS
 #
 If you have not installed node.js, follow the below steps
 #
-1. In the command prompt , run the below command
-    npm install -g protractor
+1. In the command prompt , run the command
+    "npm install -g protractor"
 2. Webdriver-manager is a helper tool to easily get an instance of a Selenium Server running. To download the binaries, run the  command
-    webdriver-manager update
-3. Start the server with the below command
-    webdriver-manager start
+    "webdriver-manager update"
+3. Start the server with the command
+    "webdriver-manager start"
 This will start the Selenium server. The status can be seen at http://localhost:4444/wd/hub
 
 
@@ -48,8 +48,8 @@ Running the tests:
 1. Download the files from the folder "E2ETest" and copy them to a new folder "E2ETest".
 2. Replace back the index.html from the application folder (take the original one from application folder)
 3. Refresh the plunker to view the application.
-4. In a seperate command prompt, run the belowcommand (also add the correct path of the conf.js file)
-    protractor conf.js
+4. In a seperate command prompt, run the command (also add the correct path of the conf.js file)
+    "protractor conf.js"
 5. The browser opens up and runs all the tests. This is very fast.
 6. At the end , the results are displayed in the command prompt.
 7. All the tests should pass
