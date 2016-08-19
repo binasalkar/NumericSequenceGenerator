@@ -1,0 +1,20 @@
+<div ng-controller="MainController">
+  <form>
+    <h1>Numeric Sequence Generator</h1>
+    <a href="" id="help" ng-click="OnHelp()">Instruction Manual</a>
+    <p>Select the Sequence
+      <select ng-model="selectedSequence" ng-options="s.name for s in sequences">
+
+      </select>
+    </p>
+    <p>
+      Enter the last digit
+      <input type="number" required="" ng-model="lastNumber" />
+    </p>
+    <input type="submit" id="generate" value="Generate Sequence" ng-click="OnSubmit()" />
+  </form>
+  <div ng-show="submitted">
+    <p>The created sequence is as below</p>
+    <p>{{generatedSequence}}</p>
+  </div>
+</div>
